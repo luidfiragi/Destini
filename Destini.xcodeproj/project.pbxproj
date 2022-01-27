@@ -58,13 +58,37 @@
 			children = (
 				5231750427A2EBD200A38156 /* AppDelegate.swift */,
 				5231750627A2EBD200A38156 /* SceneDelegate.swift */,
-				5231750827A2EBD200A38156 /* ViewController.swift */,
-				5231750A27A2EBD200A38156 /* Main.storyboard */,
+				5231751A27A2EBED00A38156 /* Modell */,
+				5231751927A2EBEA00A38156 /* View */,
+				5231751827A2EBE800A38156 /* Controller */,
 				5231750D27A2EBD300A38156 /* Assets.xcassets */,
-				5231750F27A2EBD300A38156 /* LaunchScreen.storyboard */,
 				5231751227A2EBD300A38156 /* Info.plist */,
 			);
 			path = Destini;
+			sourceTree = "<group>";
+		};
+		5231751827A2EBE800A38156 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5231750827A2EBD200A38156 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5231751927A2EBEA00A38156 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5231750A27A2EBD200A38156 /* Main.storyboard */,
+				5231750F27A2EBD300A38156 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5231751A27A2EBED00A38156 /* Modell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,7 +330,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +358,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
